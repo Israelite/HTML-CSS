@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Buttaries</title>
+		<link rel="stylesheet" href="css/css.css">
+		<style>
+			#body {
+				background-color: lightgrey;
+			}
+
+			.p1, .p2 {
+				padding: 10px;
+				border: 5px solid black;
+				margin-top: 30px;
+			}
+
+			.p2 {
+				height: 360px;;
+			}
+
+			.p1 div, .p2 div, nav div {
+				height: 30px;
+				border: 2px solid black;
+				margin-top: 30px;
+				padding: 10px;
+				background-color: yellow;
+			}
+
+			div .inner {
+				height: 200px !important;
+			}
+			/* ---------------------- */
+			div:last-child {
+				background-color: red;
+			}
+
+			div:nth-child(2) {
+				background-color: red;
+			}
+
+		</style>
+	</head>
+
+	<body id="body">
+	    <nav>
+	        <div>1</div>
+	        <div>2</div>
+	        <div>3</div>
+	    </nav>
+	    <div class="p1">
+	        <div>4</div>
+	        <div>5</div>
+	    </div>
+	    <div class="p2">
+	    	6
+	        <div>7</div>
+	        <div class="inner">
+				8
+				<div>9</div>
+				<div>10</div>
+			</div>
+	    </div>
+	</body>
+
+</html>

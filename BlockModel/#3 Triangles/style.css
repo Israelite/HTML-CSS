@@ -1,0 +1,140 @@
+.item1{
+	width: 300px;
+	height: 100px;
+	background-color: #5454f7;
+	position: relative;
+}
+
+.triangle1 {
+	position: absolute;
+	top:100px;
+	right:100px;
+	height: 0;
+	width: 0;
+	border: 50px solid;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-top-color: #5454f7;
+}
+
+.item2 {
+    top:100px; 
+    width: 250px;
+	height: 100px;
+	background-color: green;
+	position: relative;
+}
+
+.triangle2 {
+	position: absolute;
+	right: -100px;
+	height: 0;
+	width: 0;
+	border: 50px solid;
+	border-left-color: green;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+}
+
+.triangle2_1 {
+	position: absolute;
+	top: 100px;
+	height: 0;
+	width: 0;
+	border: 20px solid;
+	border-left-color: transparent;
+	border-right-color: green;
+	border-bottom-color: transparent;
+	border-top-color: green;
+}
+
+.item3 {
+    top:200px; 
+	right:-100px;
+    width: 150px;
+	height: 100px;
+	background-color:  darkorange;
+	position: relative;
+}
+
+.triangle3 {
+	position: absolute;
+	right: -100px;
+	height: 0;
+	width: 0;
+	border: 50px solid;
+	border-left-color: darkorange;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+}
+
+.triangle3_1 {
+	position: absolute;
+	left: -100px;
+	height: 0;
+	width: 0;
+	border: 50px solid;
+	border-left-color: transparent;
+	border-right-color:  darkorange;
+	border-bottom-color:  darkorange;
+	border-top-color:  darkorange;
+}
+
+.item4 {
+    top: -250px;
+	left: 400px;
+    width: 100px;
+	height: 300px;
+	background-color: #5454f7;
+	position: relative;
+}
+
+.triangle4 {
+	position: absolute;
+	top: -100px;
+	height: 0;
+	width: 0;
+	border: 50px solid;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: #5454f7;
+	border-top-color: transparent;
+}
+
+.triangle4_1 {
+	position: absolute;
+	top: 300px;
+	height: 0;
+	width: 0;
+	border: 50px solid;
+	border-left-color: #5454f7;
+	border-right-color: #5454f7;
+	border-bottom-color: transparent;
+	border-top-color: #5454f7;
+}
+
+.item5 {
+	position: relative;
+	top: -600px;
+	left: 600px;
+	width: 300px;
+	height: 100px;
+	background-color: yellow;
+	
+}
+
+.triangle5 {
+	position: absolute;
+	top: 0;
+	left: 300px;
+	height: 0;
+	width: 0;
+	border: 50px solid;
+	border-left-color: yellow;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+}
