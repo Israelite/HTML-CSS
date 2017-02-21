@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width: 300px;
+            height: 100px;
+        }
+
+        .block-1 {
+            position: relative;
+            background-color: red;
+        }
+
+        .block-1::after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            background-color: blue;
+            height: 100px;
+            width: 100px;
+        }
+
+        .block-1::before {
+            content: '';
+            display: block;
+            position: absolute;
+            right: 0;
+            background-color: blue;
+            height: 100px;
+            width: 100px;
+        }
+
+        .block-2 {
+            position: relative;
+
+            background-color: green;
+        }
+
+        .block-3 {
+            position: relative;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="block-1"><div>sdfs</div></div>
+    <div class="block-2">2</div>
+    <div class="block-3">3</div>
+</body>
+</html>

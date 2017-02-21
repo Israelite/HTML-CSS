@@ -1,4 +1,4 @@
-.item1{
+.item1 {
 	width: 300px;
 	height: 100px;
 	background-color: #5454f7;
@@ -7,20 +7,17 @@
 
 .triangle1 {
 	position: absolute;
-	top:100px;
-	right:100px;
+	top: 100%;
+	right: 100px;
 	height: 0;
 	width: 0;
 	border: 50px solid;
-	border-left-color: transparent;
-	border-right-color: transparent;
-	border-bottom-color: transparent;
-	border-top-color: #5454f7;
+	border-color: #5454f7 transparent transparent transparent;
 }
 
 .item2 {
-    top:100px; 
-    width: 250px;
+	top: 100px;
+	width: 250px;
 	height: 100px;
 	background-color: green;
 	position: relative;
@@ -28,14 +25,11 @@
 
 .triangle2 {
 	position: absolute;
-	right: -100px;
+	left: 100%;
 	height: 0;
 	width: 0;
 	border: 50px solid;
-	border-left-color: green;
-	border-right-color: transparent;
-	border-bottom-color: transparent;
-	border-top-color: transparent;
+	border-color: transparent transparent transparent green;
 }
 
 .triangle2_1 {
@@ -43,19 +37,17 @@
 	top: 100px;
 	height: 0;
 	width: 0;
-	border: 20px solid;
-	border-left-color: transparent;
-	border-right-color: green;
+	border: 20px solid green;
 	border-bottom-color: transparent;
-	border-top-color: green;
+	border-left-color: transparent;
 }
 
 .item3 {
-    top:200px; 
-	right:-100px;
-    width: 150px;
+	top: 200px;
+	right: -100px;
+	width: 150px;
 	height: 100px;
-	background-color:  darkorange;
+	background-color: darkorange;
 	position: relative;
 }
 
@@ -76,23 +68,22 @@
 	left: -100px;
 	height: 0;
 	width: 0;
-	border: 50px solid;
+	border: 50px solid darkorange;
 	border-left-color: transparent;
-	border-right-color:  darkorange;
-	border-bottom-color:  darkorange;
-	border-top-color:  darkorange;
 }
 
 .item4 {
-    top: -250px;
+	top: -250px;
 	left: 400px;
-    width: 100px;
+	width: 100px;
 	height: 300px;
 	background-color: #5454f7;
 	position: relative;
 }
 
-.triangle4 {
+.item4::after {
+	content: '';
+	display: block;
 	position: absolute;
 	top: -100px;
 	height: 0;
@@ -104,7 +95,9 @@
 	border-top-color: transparent;
 }
 
-.triangle4_1 {
+.item4::before {
+	content: '';
+	display: block;
 	position: absolute;
 	top: 300px;
 	height: 0;
@@ -123,7 +116,6 @@
 	width: 300px;
 	height: 100px;
 	background-color: yellow;
-	
 }
 
 .triangle5 {
