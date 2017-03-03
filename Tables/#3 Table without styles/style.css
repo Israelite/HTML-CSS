@@ -1,5 +1,4 @@
 html, body {
-	height: 100%;
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
@@ -13,16 +12,15 @@ table {
 }
 
 th {
-	border: 1px solid black;
 	background: lightgray;
 	color: #ffe;
 }
 
-tr td:nth-child(2n) {
+tr td:nth-child(even) {
 	background: #FEFF49;
 }
 
-tr td:nth-child(2n+1) {
+tr td:nth-child(odd) {
 	background: #35A6FF;;
 }
 
@@ -30,7 +28,7 @@ tr td :nth-child(3) {
 	text-align: center;
 }
 
-td {
+td,th {
 	border: 1px solid black;
 }
 
