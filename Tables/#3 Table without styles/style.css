@@ -6,14 +6,14 @@ html, body {
 
 table {
 	margin: 200px auto;
-	border: 3px solid black;
+	/*border: 3px solid black;*/
 	border-collapse: collapse;
 	text-align: left;
 }
 
 th {
-	background: lightgray;
-	color: #ffe;
+	background: #666666 ;
+	color: #fff;
 }
 
 tr td:nth-child(even) {
@@ -21,14 +21,15 @@ tr td:nth-child(even) {
 }
 
 tr td:nth-child(odd) {
-	background: #35A6FF;;
+	background:#7DDED5;
 }
 
-tr td :nth-child(3) {
+tr td:nth-child(3) {
 	text-align: center;
 }
 
 td,th {
 	border: 1px solid black;
+	padding: 2px 5px;
 }
 
