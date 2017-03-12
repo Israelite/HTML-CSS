@@ -6,7 +6,6 @@ html, body {
 
 table {
 	margin: 200px auto;
-	/*border: 3px solid black;*/
 	border-collapse: collapse;
 	text-align: left;
 }
