@@ -6,7 +6,7 @@ body {
 .menu {
 	position: relative;
 	display: block;
-	width: 150px;
+	width: 160px;
 	line-height: 40px;
 	font-size: 0;
 	padding: 10px;
@@ -23,7 +23,7 @@ li a {
 	display: block;
 	height: 40px;
 	font-size: 18px;
-	padding:5px 5px;
+	padding-left: 10px;
 	text-decoration: none;
 	background-color: #FFFFFF;
 	background: #F5F5F5;
