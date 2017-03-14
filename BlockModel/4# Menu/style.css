@@ -2,3 +2,68 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+.dropdown-menu {
+	position: relative;
+	display: block;
+	width: 160px;
+	line-height: 40px;
+	font-size: 0;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: 2px 4px 25px 6px rgba(0,0,0,0.41);
+	-moz-box-shadow: 2px 4px 25px 6px rgba(0,0,0,0.41);
+	box-shadow: 2px 4px 25px 6px rgba(0,0,0,0.41);
+}
+
+.dropdown-menu > li > a {
+	display: block;
+	position: relative;
+	height: 40px;
+	font-size: 18px;
+	padding-left: 10px;
+	text-decoration: none;
+	color: #50555A;
+}
+
+.dropdown-menu > li > a:hover {
+	background-color: #CCCCCC;
+	color: #6b6262;
+}
+
+.dropdown-submenu {
+	position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+	display: none;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 100%;
+	margin-bottom: -10px;
+	margin-left: -2px;
+}
+
+.dropdown-submenu > a::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 5px;
+	height: 0;
+	width: 0;
+	margin-top: -5px;
+	border: 5px solid transparent;
+	border-left-color: #000;
+}
+
+.separator {
+	border-bottom: solid 1px #ccc;
+}
