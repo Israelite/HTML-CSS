@@ -3,14 +3,18 @@ body, ul {
 	padding: 0;
 }
 
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
 .container {
-	width: 1200px;
-	height: 40px;
+	width: 1040px;
 	margin: 0 auto;
 }
 
 nav {
-	height: 40px;
 	background-color: #52AACE;
 }
 
@@ -51,10 +55,99 @@ nav {
 }
 
 header {
-	background-color: #93D8F5;
+	background: linear-gradient(to top, #58b4db, #96d9f4);
 }
 
 .header-image {
 	display: block;
 	margin: 0 auto;
+	width: 100%;
+}
+
+.baners {
+	background-color: #E9DBCE;
+}
+
+.baner {
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 10px 0 0;
+}
+
+.baners .container .row > :last-child {
+	margin-right: 0;
+}
+
+.carusel {
+	height: 50px;
+}
+
+.content {
+	background-color: #fff;
+	height: 250px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+main {
+	background-color: #E9DBCE;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+footer {
+	border-top: 10px solid #52AFD8;
+	height: 200px;
+	background-color: #2D3E50;
+}
+
+.footer_container {
+	display: block;
+	border-bottom: 1px solid #415266;
+}
+
+.b_right {
+	float: right;
+}
+
+.b_right p {
+	display: inline-block;
+	padding: 1px 20px;
+	font-size: 20px;
+	color: #F8FFFF;
+}
+
+.img {
+	float: right;
+	display: inline-block;
+	padding: 17px 5px;
+}
+
+.b_left {
+	float: left;
+	display: inline-block;
+	font-size: 22px;
+	color: #F8FFFF;
+}
+
+.contacts {
+	margin: 20px 0;
+}
+
+.contacts li {
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+
+.contacts li a {
+	text-decoration: none;
+	padding: 20px 5px;
+	font-size: 20px;
+	color: #F8FFFF;
+}
+
+.contacts li a img {
+	display: inline-block;
+	margin: 5px -20px 0 20px;
 }
